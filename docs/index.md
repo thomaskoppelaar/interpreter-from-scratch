@@ -31,4 +31,6 @@ Part 5: Wrapping up + Bonuses (Not yet done)
 
 ## Note for CoL #tech-club viewers
 
+You don't have to submit assignments to me (yet). Keep them with you until needed.
+
 You can earn points for this for quite a while. I'll tally them up at the end of the weeks, and later decide how I want to give out bonuses. Note: implementations for this interpreter taken from some online resource will not reward you with any points, as it defeats the entire purpose.
