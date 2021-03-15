@@ -17,6 +17,12 @@ avdqvdmavvqmiqiiifvdlfbffiiiflblblfbqviiifbfiiifwdfwwiif
 ## Index
 
 [Part 0: Introduction](0-introduction.md)
+Part 1: Storing a value (Not yet done)
+Part 2: Expanding memory (Not yet done)
+Part 3: User input, Arithmetic (Not yet done)
+Part 4: Conditionals (Not yet done)
+Part 5: Wrapping up + Bonuses (Not yet done)
+
 
 ## Note for CoL #tech-club viewers
 
