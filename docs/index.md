@@ -18,7 +18,7 @@ avdqvdmavvqmiqiiifvdlfbffiiiflblblfbqviiifbfiiifwdfwwiif
 
 [Part 0: Introduction](0-introduction.md)
 
-Part 1: [Storing a value](1-creating-memory.md)
+[Part 1: Storing a value](1-creating-memory.md)
 
 Part 2: Expanding memory (Not yet done)
 
