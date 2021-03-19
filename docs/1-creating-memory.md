@@ -1,14 +1,16 @@
 # Part 1: Creating memory
 
-In the [last part](0-introduction.md), we made the foundation for our interpreter. This week, we're going to start actually start interpreting parts of our language. To do this, we're going to start with some simple operators, and work our way up.
+In the [last part](0-introduction.md), we made the foundation for our interpreter. This week, we're going to start actually interpreting parts of our language. To do this, we're going to start with some simple operators, and work our way up.
 
 ## Program flow
 
-First, lets talk about program flow. In a more complex language, 99% of the time, we cannot read our program from top to bottom and that we never have to backtrack. With features like functions, classes, objects, lambdas, or even goto's, its a not of hassle to try and keep track of objects and program state. For now, lets not worry about any of that, and **only worry about a single direction flow: From start to finish, without jumps.**
+First, let's talk about program flow. 
+
+In a more complex language, 99% of the time, we cannot read our program from top to bottom. There are moments that we have to backtrack, and look something up that was defined earlier. With features like ~~functions~~, classes, objects, lambdas, or even goto's, it's a lot of hassle to try and keep track of objects and program state. For now, let's not worry about any of that, and **only worry about a single direction flow: From start to finish, without jumps.**
 
 ## Memory
 
-For our language to be able to do anything interesting, its useful to be able to keep track of something. Since implementing variables is quite tricky in a language, lets start with creating a **single memory cell, which we can manipulate and access through operators.** Note that memory is not shared between programs, or consecutive runs of the same program. The memory should always start out uninitialized.
+For our language to be able to do anything interesting, its useful to be able to keep track of something. Since implementing variables is quite tricky in a language, let's start with creating a **single memory cell, which we can manipulate and access through operators.** Note that memory is not shared between programs, or consecutive runs of the same program. The memory should always start out uninitialized.
 
 ## The first operators
 
@@ -128,7 +130,7 @@ Output: [Some Error]
 
 ## Wrapping up
 
-In this part, we've briefly talked about program flow, and we've creating a memory cell that we can store a value in. We can access the value and print it, and modify it.
+In this part, we've briefly talked about program flow, and we've created a memory cell that we can store a value in. We can access the value and print it, and modify it.
 
 In the next part, we will be expanding our memory in order to hold multiple values.
 
