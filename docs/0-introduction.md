@@ -160,4 +160,4 @@ Well, we haven't really interpreted much, have we? We've only removed stuff from
 
 However, realize that this is an important step for later. Being able to document your steps is a crucial part of learning and developing.
 
-Next part: `Not yet done`
+Next part: [Creating memory](1-creating-memory.md)
