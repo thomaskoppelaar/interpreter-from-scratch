@@ -1,6 +1,6 @@
 # Part 2: Expanding memory
 
-In the [last part](link-to-1.md), we added some memory to our interpreter. This week, we want to expand and allow for more than one value to be stored at a time.
+In the [last part](1-creating-memory.md), we added a single cell of memory to our interpreter. This week, we want to expand and allow for more than one value to be stored at a time.
 To do this, we will rework some of our previous operators, add introduce some new ones.
 
 ## The Stack
@@ -53,7 +53,7 @@ The old operators have been slightly rephrased, and new operators have been mark
 
 ## Assignment 2
 
-0. Take a look at the New operators listed in the above table.
+0. Take a look at the new operators listed in the above table.
 
 1. Implement the `b` operator. Note that your interpreter should throw an error when there is no item to pop from the stack.
 
@@ -61,13 +61,13 @@ Example: program.txt
 ```
 a iiiidi // init 4-1+1 = 4
 a ii // init 2
-b x // pop, print
+b x // pop (the 2), print
 z // exit
 ```
 
 `file program.txt` should print `4`.
 
-2. Implement the `v` and `w` operator. Note that when an item is decremented below 0 (e.g. the top value of the stack is a 4 and the operation is a `w`), you should throw an error.
+2. Implement the `v` and `w` operator. Note that when an item is decremented below 0 (e.g. the top value of the stack is a 4 and the next operation is a `w`), you should throw an error.
 
 3. Implement the `q` operator. Note that when there is nothing to duplicate, an error should be thrown.
 
@@ -76,5 +76,5 @@ z // exit
 
 This part was a logical extension to last part: We took our existing memory implementation, and extended it such that we're able to work with more values at the same time.
 
-In the next part, we will extend our interpreter once again such that we can interact with multiple values at the same time. At this point, it's a good idea to clean up / refactor your code in such a way you can easily extend into more operators, seeing as we will be **doubling** the size of our language. 
+In the next part, we will extend our interpreter once again such that we can interact with multiple values at the same time. At this point, it's a good idea to clean up / refactor your code in such a way you can easily interpret more operators, seeing as we will be **doubling** the size of our language. 
 
