@@ -1,7 +1,7 @@
 # Part 2: Expanding memory
 
 In the [last part](1-creating-memory.md), we added a single cell of memory to our interpreter. This week, we want to expand and allow for more than one value to be stored at a time.
-To do this, we will rework some of our previous operators, add introduce some new ones.
+To do this, we will rework some of our previous operators, and introduce some new ones.
 
 ## The Stack
 
