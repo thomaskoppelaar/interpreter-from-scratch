@@ -20,7 +20,7 @@ avdqvdmavvqmiqiiifvdlfbffiiiflblblfbqviiifbfiiifwdfwwiif
 
 [Part 1: Storing a value](1-creating-memory.md)
 
-Part 2: Expanding memory (Not yet done)
+[Part 2: Expanding memory](2-expanding-memory.md)
 
 Part 3: User input, Arithmetic (Not yet done)
 
