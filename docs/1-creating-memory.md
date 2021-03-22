@@ -134,4 +134,4 @@ In this part, we've briefly talked about program flow, and we've created a memor
 
 In the next part, we will be expanding our memory in order to hold multiple values.
 
-Next part: `Not yet done`
+Next part: [expanding memory](2-expanding-memory.md)
