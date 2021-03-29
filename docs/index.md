@@ -22,7 +22,7 @@ avdqvdmavvqmiqiiifvdlfbffiiiflblblfbqviiifbfiiifwdfwwiif
 
 [Part 2: Expanding memory](2-expanding-memory.md)
 
-Part 3: User input, Arithmetic (Not yet done)
+[Part 3: User input, Arithmetic](3-more-operations.md)
 
 Part 4: Conditionals (Not yet done)
 

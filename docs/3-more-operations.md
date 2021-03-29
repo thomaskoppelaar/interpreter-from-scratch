@@ -76,11 +76,14 @@ For example: `jf` should print the character that was given as input.
 
 Note that for `h`, only the characters `0` through `9` are valid input.
 
-2. Write a "Hello World!" Program! You might find the ASCII
+
+## Assignment 4: Hello World
+
+Write a "Hello World!" Program! You might find the ASCII cheatsheet listed earlier useful.
 
 ## Wrapping up
 
-This part, we made good use of our stack, and added the ability for a user to input their text. We're fleshed out our interpreter and our language by being able to do more than very basic addition.
+This part, we made good use of our stack, and added the ability for a user to input their text. We've fleshed out our interpreter and our language by being able to do more than basic addition.
 
 The next part will already be the final required part of our interpreter, adding conditional operators and the ability to jump through our program.
 
