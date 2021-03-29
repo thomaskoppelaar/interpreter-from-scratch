@@ -78,5 +78,5 @@ This part was a logical extension to last part: We took our existing memory impl
 
 In the next part, we will extend our interpreter once again such that we can interact with multiple values at the same time. At this point, it's a good idea to clean up / refactor your code in such a way you can easily interpret more operators, seeing as we will be **doubling** the size of our language. 
 
-Next part: `Not yet done`
+Next part: [more operations](3-more-operations.md)
 
