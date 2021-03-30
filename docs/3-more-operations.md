@@ -54,7 +54,7 @@ z // optional exit
 0. Take a look at the `l` and `r` operators.
 1. Implement them.
 
-For example: `run arrr xb xb xb xb` should print `3210`, and `aaiiil` should print `0`.
+For example: `run arrr xb xb xb xb` should print `3210`, and `aaiiilx` should print `0`.
 
 Note that you should use integer division when dividing (i.e. you don't get a decimal number as a result).
 
