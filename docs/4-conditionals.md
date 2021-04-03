@@ -22,6 +22,7 @@ In this part, we want to add the final few operators into our language that allo
 | **k**         | **Skips the next command if the top item on the stack is 0.**                                                          |
 | l         | Swaps the 1st and 2nd items on the stack.                                                                          |
 | m         | Multiplies the first 2 stack items together and pushes the result onto the stack.                                  |
+| **n**         | **If the 1st item on the stack is equal to the 2nd item, push a 1 to the stack, else push a 0.**                       |
 | **o**         | **Pops the (top item on the stack)th item on the stack.**                                                            |
 | p         | Divides the top item on the stack by the 2nd item and pushes the result onto the stack.                            |
 | q         | Duplicates the top item on the stack.                                                                              |
@@ -63,7 +64,7 @@ z
 
 ## Assignment 2: Conditionals
 
-0. Take a look at the `k`, `t`, and `u` operators.
+0. Take a look at the `k`, `n`, `t`, and `u` operators.
 1. Implement them.
 
 A couple of notes:
