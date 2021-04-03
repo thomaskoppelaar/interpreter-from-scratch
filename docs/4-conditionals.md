@@ -61,4 +61,43 @@ z
 `file program.txt` should print `200145`.
 
 
+## Assignment 2: Conditionals
+
+0. Take a look at the `k`, `t`, and `u` operators.
+1. Implement them.
+
+A couple of notes:
+- If you encounter a `t` whilst the top item on the stack is 0 and there is no `u`, you should exit the program.
+- If you encounter a `u` whilst the top item on the stack is not 0 and there is no `t`, you should go back to the beginning.
+- If there are no items to read on the stack whilst you encounter a `t`, `u`, or `k`: throw an error.
+- You do not have to worry about infinite looping programs (e.g. `aiu`).
+- "Corresponding" t or u means that loops can be nested. For example: `t...t...u...u` means that the inner `t` should jump to the inner `u`, and the outer `t` to the outer `u` (should the conditions hold).
+
+For example:
+factorial.txt
+```js
+
+h // take number input (x)
+q // duplicate
+d // decrement (y = x - 1) -- stack: y,x
+t // begin loop if top item != 0
+	m // push result = y * x
+	l // swap result and y
+	d // decrement y -- stack: y,result,x
+u // end loop if top item == 0 -- stack: 0, result, x
+b // pop top item -- stack: result, x
+x // print
+```
+`file factorial.txt` should print `x!`, or the factorial of the given input number.
+(Note that the program doesn't work with input 0. You could try and do that as a bonus assignment).
+
+## Wrapping up
+
+It's time to congratulate yourself on what you've done: You've created a fully fledged interpreter for hopefully the weirdest language you'll ever come across!
+I hope you found this to be a neat little task and walk through making an interpeter. 
+Although we did not cover much formally, I hope that you still learned something. Seeing as we have now implemented all the operators, there is not much to add to our interpreter other than some extra features, which will be the topic of the final part.
+
+Next part: `Not yet done`
+
+
 
