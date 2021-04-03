@@ -87,4 +87,4 @@ This part, we made good use of our stack, and added the ability for a user to in
 
 The next part will already be the final required part of our interpreter, adding conditional operators and the ability to jump through our program.
 
-Next part: `Not yet done`
+Next part: [Conditionals](4-conditionals.md )
