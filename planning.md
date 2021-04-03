@@ -117,6 +117,7 @@ Bob's interpreter can take a line or a file, and interpret the following command
 | **k**         | **Skips the next command if the top item on the stack is 0.**                                                          |
 | l         | Swaps the 1st and 2nd items on the stack.                                                                          |
 | m         | Multiplies the first 2 stack items together and pushes the result onto the stack.                                  |
+| n         | If the 1st item on the stack is equal to the 2nd item, push a 1 to the stack, else push a 0.                       |
 | **o**         | **Pops the (top item on the stack)th item on the stack.**                                                            |
 | p         | Divides the top item on the stack by the 2nd item and pushes the result onto the stack.                            |
 | q         | Duplicates the top item on the stack.                                                                              |
