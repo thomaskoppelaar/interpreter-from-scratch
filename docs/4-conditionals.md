@@ -35,7 +35,7 @@ In this part, we want to add the final few operators into our language that allo
 | y         | Deletes the entire stack.                                                                                          |
 | z         | Exits the program.                                                                                                 |
 
-## Assignment 1: Nth item on the stack.
+## Assignment 1: Nth item on the stack
 
 0. take a look at the `o` and the `s` operator.
 1. Implement them. 
@@ -93,9 +93,8 @@ x // print
 
 ## Wrapping up
 
-It's time to congratulate yourself on what you've done: You've created a fully fledged interpreter for hopefully the weirdest language you'll ever come across!
-I hope you found this to be a neat little task and walk through making an interpeter. 
-Although we did not cover much formally, I hope that you still learned something. Seeing as we have now implemented all the operators, there is not much to add to our interpreter other than some extra features, which will be the topic of the final part.
+It's time to congratulate yourself on what you've done: You've created a fully-fledged interpreter for hopefully the weirdest language you'll ever come across!
+Although we did not cover much formally, I hope that you still learned something. Seeing as we have now implemented all the operators, there is not much to add to our interpreter other than some extra features, which will be the topic of the bonus part.
 
 Next part: `Not yet done`
 
