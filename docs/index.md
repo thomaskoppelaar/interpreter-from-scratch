@@ -24,7 +24,7 @@ avdqvdmavvqmiqiiifvdlfbffiiiflblblfbqviiifbfiiifwdfwwiif
 
 [Part 3: User input, Arithmetic](3-more-operations.md)
 
-Part 4: Conditionals (Not yet done)
+[Part 4: Conditionals](4-conditionals.md)
 
 Part 5: Wrapping up + Bonuses (Not yet done)
 
