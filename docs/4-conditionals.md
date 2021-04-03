@@ -89,7 +89,7 @@ b // pop top item -- stack: result, x
 x // print
 ```
 `file factorial.txt` should print `x!`, or the factorial of the given input number.
-(Note that the program doesn't work with input 0. You could try and do that as a bonus assignment).
+(Note that the program doesn't work with input 0 and 1. You could try and do that as a bonus assignment).
 
 ## Wrapping up
 
