@@ -97,7 +97,7 @@ x // print
 It's time to congratulate yourself on what you've done: You've created a fully-fledged interpreter for hopefully the weirdest language you'll ever come across!
 Although we did not cover much formally, I hope that you still learned something. Seeing as we have now implemented all the operators, there is not much to add to our interpreter other than some extra features, which will be the topic of the bonus part.
 
-Next part: `Not yet done`
+Next part: [bonus features](5-bonus.md)
 
 
 
